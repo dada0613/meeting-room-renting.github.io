@@ -1,0 +1,13 @@
+a{
+ display:inline; position:absolute; top:0px; color: rgb(237, 114, 6)
+}
+@keyframes color-changed {
+    
+    from {color:rgb(237, 114, 6);}
+    to {color:rgb(118, 55, 11);}
+}
+a:hover{
+animation-name: color-changed;
+animation-duration:1s;
+color:rgb(118, 55, 11);
+}
